@@ -1,25 +1,33 @@
-# Sales Summary Dashboard
+```markdown
+# Sales Summary 2025
 
 ## Overview
-This is a single-page web application designed to provide a quick and clear summary of sales data. It fetches sales figures from a `data.csv` file, calculates the total sales, and displays this summary prominently on the page. The application is built with modern web technologies for a responsive and user-friendly experience.
+This single-page site fetches data from `data.csv` attached to the project, sums its sales column, sets the title to "Sales Summary 2025", displays the total inside #total-sales, and loads Bootstrap 5 from jsdelivr.
 
 ## Features
-*   Fetches sales data from an attached `data.csv` file.
-*   Calculates the sum of the 'sales' column from the CSV data.
-*   Dynamically updates the page title to 'Sales Summary 2025'.
-*   Displays the calculated total sales within the `#total-sales` element.
-*   Integrates Bootstrap 5 for a styled and responsive user interface.
+- Fetches data from `data.csv`
+- Sums sales column
+- Sets page title to "Sales Summary 2025"
+- Displays total in #total-sales
+- Loads Bootstrap 5
 
 ## Usage
-1.  Ensure the `data.csv` file is present in the project's attachments.
-2.  Open the `index.html` file in your web browser.
-3.  The application will automatically load the data, perform the calculation, and display the sales summary.
+To use this application:
+1. Attach the `data.csv` file to your project.
+2. Run the application locally using a web server.
 
 ## Technical Details
-The application utilizes plain HTML, CSS, and JavaScript.
-*   **HTML:** Provides the structure of the single-page application, including the placeholder for the total sales display (`#total-sales`).
-*   **JavaScript:** Handles the data fetching (using the Fetch API), CSV parsing, sales column summation, and dynamic DOM manipulation to update the title and display the total.
-*   **Bootstrap 5:** Loaded via jsDelivr CDN, providing pre-built components and styling for a clean and responsive layout.
+- Front-end: HTML, CSS, JavaScript (Bootstrap 5)
+- Back-end: None (fetching data from CSV)
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+MIT License
+
+Copyright © 2023 [Your Name]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
